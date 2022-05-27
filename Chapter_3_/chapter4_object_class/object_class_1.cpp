@@ -1,7 +1,7 @@
 // WAP to calculate area and volume of a room.
 #include<iostream>
 using namespace std;
-class Room{
+class Room{ 
 
    public:
   int length;
