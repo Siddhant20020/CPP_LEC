@@ -18,5 +18,5 @@ class myclass2{
     int main(){
         my class obj1(2);
         myclass2 obj2(obj1);
-   retun 0; }
+   }
 }
