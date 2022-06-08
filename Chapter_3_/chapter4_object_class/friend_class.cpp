@@ -19,4 +19,8 @@ class myclass2{
         my class obj1(2);
         myclass2 obj2(obj1);
    }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ff19b18162c77067d1a106f1a61035b9f2212130
