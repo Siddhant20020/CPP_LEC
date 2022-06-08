@@ -14,6 +14,6 @@ class Helloworld{
    };
    int main(){
        Helloworld obj;
-       obj.display();
+       obj display();
        return 0;
    }
