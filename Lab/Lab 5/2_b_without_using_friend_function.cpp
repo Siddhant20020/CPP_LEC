@@ -1,0 +1,44 @@
+#include<iostream>
+using namespace std;
+class Vector
+{
+    private:
+    float x,y,z;
+    public:
+    Vector()
+    {
+        x = y= z=0;
+    
+    }
+    void getData()
+    {
+     cout<<"Enter the vector components"<<endl;
+     cout<<"Enter the x component"<<endl; 
+     cin>>x;
+     cout<<"Enter the y component"<<endl; 
+     cin>>y;
+     cout<<"Enter the z component"<<endl; 
+     cin>>z;
+    }
+    Vector operator + (Vector a )
+    {   
+       Vector sum;
+       sum.x = x + a.x;
+       sum.y = y + a.y;
+       sum.z = z + a.z;
+       return sum;
+    }
+    void showData()
+    {
+        cout<<x<<"i + "<<y<<"j + "<<z<<"k "<<endl;
+    }
+};
+int main()
+{
+Vector a,b,c;
+a.getData();
+b.getData();
+c = a + b;
+cout<<" The Sum is ";
+c.showData();
+}
